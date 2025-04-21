@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul li, ol li {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+.font-young-serif {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+.font-outfit {
+  font-family: 'outfit', sans-serif;
+  font-weight: 400;
+}
+.font-outfit-bold {
+  font-family: 'outfit', sans-serif;
+  font-weight: 700;
+}
+.font-outfit-semi-bold {
+  font-family: 'outfit', sans-serif;
+  font-weight: 600;
+}
+.text-white {
+  color: hsl(0, 0%, 100%)
+}
+.text-stone-100 {
+  color: hsl(30, 54%, 90%)
+}
+.text-stone-150 {
+  color: hsl(30, 18%, 87%)
+}
+.text-stone-600 {
+  color: hsl(30, 10%, 34%)
+}
+.text-stone-900 {
+  color: hsl(24, 5%, 18%)
+}
+.text-brown-800 {
+  color: hsl(14, 45%, 36%)
+}
+.text-rose-800 {
+  color: hsl(332, 51%, 32%)
+}
+.text-rose-50 {
+  color: hsl(330, 100%, 98%)
+}
